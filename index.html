@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINSE-FORMACIONESA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#courses">Cursos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Bienvenido a FINSE-FORMACIONES</h1>
+            <p>Formación de calidad para tu futuro</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Inicio</h2>
+            <p>Bienvenidos a FINSE-FORMACIONES, tu mejor opción para una formación profesional de calidad.</p>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>FINSE-FORMACIONESA es una institución dedicada a la formación profesional en diversas áreas.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Nuestros Cursos</h2>
+            <div class="course-list">
+                <div class="course">
+                    <h3>Curso de Programación</h3>
+                    <p>Aprende a programar con los mejores instructores.</p>
+                </div>
+                <div class="course">
+                    <h3>Curso de Diseño Gráfico</h3>
+                    <p>Desarrolla tus habilidades en diseño con nuestras herramientas avanzadas.</p>
+                </div>
+                <!-- Más cursos aquí -->
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contacto</h2>
+            <form action="archivo.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FINSE-FORMACIONES Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>
